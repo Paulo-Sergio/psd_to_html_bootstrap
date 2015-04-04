@@ -1,4 +1,4 @@
-body{font-family:'Josefin Sans', sans-serif; font-size:18px; line-height:24px;}
+body{font-family:'Josefin Sans', sans-serif; font-size:18px; line-height:24px; color:#2e2e2e;}
 
 .column{width:1170px; margin:0 auto;}
 .floatleft{float: left;}
@@ -7,12 +7,14 @@ body{font-family:'Josefin Sans', sans-serif; font-size:18px; line-height:24px;}
 ul{margin:0; padding:0; list-style:none;}
 a{color:#fff;}
 a:hover{color:#fff; text-decoration:none;}
+h1, h2, h3, h4, h5, h6, p{margin:0; padding:0;}
+.section_padding{padding:100px 0}
 
 .fix{overflow:hidden;}
 
 
 
-
+/*MENU*/
 .header_area{background:#2E2E2E; min-height:75px;}
 .header{}
 .logo{position:relative;}
@@ -29,3 +31,51 @@ a:hover{color:#fff; text-decoration:none;}
  	display: inline-block;
   	border-left: 1px solid #3a3a3a;}
 .mainmenu ul#nav li a:hover{}
+
+/*Welcome*/
+.welcome_text_area{background:url(img/wel-bg.jpg) no-repeat scroll 0 0 / cover; min-height:400px;}
+.welcome_text{color:#2e2e2e; text-align:center; padding-top:150px;}
+.welcome_text h1{text-transform:uppercase; font-size:60px; font-weight:700;}
+.welcome_text p{text-transform:uppercase;}
+
+/*Area Works*/
+.section_title{text-align:center; margin-bottom:50px;}
+.section_title h1{text-transform:uppercase; font-size:40px; font-weight:700;}
+.section_title p{text-transform:uppercase;}
+
+.how_it_works_area{text-align:center;}
+.how_it_works{margin-left:-30px;}
+
+.single_work{margin-left:30px; width:270px;}
+.single_work div.icon_img{margin-bottom:30px; padding:30px; position:relative;}
+.single_work div.icon_img:before{position:absolute; content:""; width:30px; height:1px; background:#d2d2d2; left:50%; margin-left:-15px; bottom:0px;}
+.single_work h4{text-transform:uppercase; font-weight:700; margin-bottom:20px;}
+.single_work p{}
+
+a.more_projects{display:inline-block; font-size:16px; font-weight:700; color:#B2B2B2; text-transform:uppercase; margin-top:30px; border:1px solid #B2B2B2; padding:12px 20px;}
+
+/*Parallax one area*/
+.parallax_area{position:relative;}
+.click_sharea_bg{position:absolute; background:url(img/click-shared.jpg) no-repeat scroll 0 0 / cover; width:100%; height:100%; top:0; left:0;}
+.overlay{position:absolute; width:100%; height:100%; background:#2e2e2e; opacity:.4; top:0; left:0;}
+.parallax{text-align:center; /*padding:100px 0;*/}
+.parallax a{position:relative; z-index:9999; font-size:28px; font-weight:700; padding-bottom:5px; border-bottom:1px solid #fff; text-transform:uppercase;}
+.parallax a span{color:#549dc5;}
+
+/*Portfolio area*/
+.projects_area{}
+.projects{}
+ul#filters{text-align:center; margin-bottom:30px;}
+ul#filters li.filter{display:inline; cursor:pointer; font-size:16px; font-weight:700; text-transform:uppercase; padding: 0 25px; position:relative;}
+ul#filters li.filter:after{content:"/"; position: absolute; right: -5px;}
+
+ul#filters li:last-child:after{display:none;}
+
+ul#filters li.filter.active{color:#549dc5;}
+ul#filters li.filter.active:after{color:#2e2e2e;}
+
+.portfolio_items .mix{display:none;}
+
+.portfolio_items{margin-left:-10px;}
+.single_portfolio{margin-left:10px; width:281px; margin-bottom:10px;}
+.single_portfolio img{width:100%;}
