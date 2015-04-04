@@ -1,0 +1,31 @@
+body{font-family:'Josefin Sans', sans-serif; font-size:18px; line-height:24px;}
+
+.column{width:1170px; margin:0 auto;}
+.floatleft{float: left;}
+.floatright{float: right;}
+
+ul{margin:0; padding:0; list-style:none;}
+a{color:#fff;}
+a:hover{color:#fff; text-decoration:none;}
+
+.fix{overflow:hidden;}
+
+
+
+
+.header_area{background:#2E2E2E; min-height:75px;}
+.header{}
+.logo{position:relative;}
+.logo img{position:absolute; top:0; left:0;}
+.mainmenu{}
+
+.mainmenu ul#nav {border-right:1px solid #3a3a3a; }
+.mainmenu ul#nav li {display:inline;}
+.mainmenu ul#nav li a{
+	font-size: 13px;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	padding: 25.5px 20px;
+ 	display: inline-block;
+  	border-left: 1px solid #3a3a3a;}
+.mainmenu ul#nav li a:hover{}
